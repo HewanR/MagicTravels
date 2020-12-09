@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+.navBar {
+    height: 100%;
+    margin: 0;
+    font-size: 30px;
+    position: relative;
+    font-family: 'Indie Flower', cursive;
+   
+}
+
+.navBar .title {
+    font-family: 'Indie Flower', cursive;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.navBar .hello {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+   
+}
+
+.navBar .hello button {
+    margin-left: 20px;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+.navBar .helloContainer {
+    width: 84%;
+    display: flex;
+    justify-content: flex-end;
+}

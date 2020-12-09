@@ -1,0 +1,12 @@
+
+.reports {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+  padding: 10px 0px 100px 0px ;
+
+}
+

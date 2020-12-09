@@ -1,0 +1,66 @@
+@import "./assets/favoriteBTN/css/style.css";
+
+.customer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.customer > .cardContainer {
+  width: 90%;
+  margin: 0 auto;
+  float: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-auto-columns: minmax(260px, 1fr);
+  grid-template-rows: auto;
+  padding: 10px 0px 0px 0px ;
+  grid-column-gap: 1%;
+  grid-row-gap: 9px;
+
+}
+
+.customer .cardBody {
+  font-family: 'Grandstander', cursive;
+}
+
+.customer .cardBody h5, .vacationFooter, .vacationFooter p {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.customer .vacationBody p {
+  font-size: 18px;
+}
+
+.customer .bg-purple {
+  background-color: rgba(63,81,181,0.7);
+}
+
+.customer .vacationBody {
+  width: 100%;
+  min-height: 340px;
+  margin-top: 10px;
+  padding: 2%;
+}
+
+.customer .description {
+  height: 170px;
+  overflow-y: auto;
+}
+
+.customer .vacationFooter {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.customer .image {
+  margin-bottom: 20px;
+}
+
+.customer .faIcon {
+  margin-left: 2%;
+}
+
+
